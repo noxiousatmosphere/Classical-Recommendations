@@ -1,0 +1,702 @@
+[
+    {
+      "name": "Brandenburg Concertos",
+      "composer": "Johann Sebastian Bach",
+      "era": "Baroque",
+      "year": 1721,
+      "sub_genre": "Concerto collection"
+    },
+    {
+      "name": "The Four Seasons",
+      "composer": "Antonio Vivaldi",
+      "era": "Baroque",
+      "year": 1723,
+      "sub_genre": "Violin concerto"
+    },
+    {
+      "name": "Messiah",
+      "composer": "George Frideric Handel",
+      "era": "Baroque",
+      "year": 1741,
+      "sub_genre": "Oratorio"
+    },
+    {
+      "name": "Water Music",
+      "composer": "George Frideric Handel",
+      "era": "Baroque",
+      "year": 1717,
+      "sub_genre": "Suite"
+    },
+    {
+      "name": "Canon in D",
+      "composer": "Johann Pachelbel",
+      "era": "Baroque",
+      "year": 1680,
+      "sub_genre": "Orchestral work"
+    },
+    {
+      "name": "Goldberg Variations",
+      "composer": "Johann Sebastian Bach",
+      "era": "Baroque",
+      "year": 1741,
+      "sub_genre": "Solo piano work"
+    },
+    {
+      "name": "Well-Tempered Clavier",
+      "composer": "Johann Sebastian Bach",
+      "era": "Baroque",
+      "year": 1722,
+      "sub_genre": "Collection"
+    },
+    {
+      "name": "St Matthew Passion",
+      "composer": "Johann Sebastian Bach",
+      "era": "Baroque",
+      "year": 1727,
+      "sub_genre": "Oratorio"
+    },
+    {
+      "name": "Toccata and Fugue in D Minor",
+      "composer": "Johann Sebastian Bach",
+      "era": "Baroque",
+      "year": 1704,
+      "sub_genre": "Solo piano work"
+    },
+    {
+      "name": "Eine kleine Nachtmusik",
+      "composer": "Wolfgang Amadeus Mozart",
+      "era": "Classical",
+      "year": 1787,
+      "sub_genre": "Serenade"
+    },
+    {
+      "name": "Symphony No. 40",
+      "composer": "Wolfgang Amadeus Mozart",
+      "era": "Classical",
+      "year": 1788,
+      "sub_genre": "Symphony"
+    },
+    {
+      "name": "Requiem in D Minor",
+      "composer": "Wolfgang Amadeus Mozart",
+      "era": "Classical",
+      "year": 1791,
+      "sub_genre": "Requiem"
+    },
+    {
+      "name": "Piano Concerto No. 21",
+      "composer": "Wolfgang Amadeus Mozart",
+      "era": "Classical",
+      "year": 1785,
+      "sub_genre": "Piano concerto"
+    },
+    {
+      "name": "The Magic Flute",
+      "composer": "Wolfgang Amadeus Mozart",
+      "era": "Classical",
+      "year": 1791,
+      "sub_genre": "Opera"
+    },
+    {
+      "name": "Symphony No. 5",
+      "composer": "Ludwig van Beethoven",
+      "era": "Classical",
+      "year": 1808,
+      "sub_genre": "Symphony"
+    },
+    {
+      "name": "Piano Sonata No. 14 'Moonlight'",
+      "composer": "Ludwig van Beethoven",
+      "era": "Classical",
+      "year": 1801,
+      "sub_genre": "Piano sonata"
+    },
+    {
+      "name": "Symphony No. 9 'Choral'",
+      "composer": "Ludwig van Beethoven",
+      "era": "Classical",
+      "year": 1824,
+      "sub_genre": "Symphony"
+    },
+    {
+      "name": "Piano Concerto No. 5 'Emperor'",
+      "composer": "Ludwig van Beethoven",
+      "era": "Classical",
+      "year": 1809,
+      "sub_genre": "Piano concerto"
+    },
+    {
+      "name": "String Quartet No. 14 'Death and the Maiden'",
+      "composer": "Franz Schubert",
+      "era": "Classical",
+      "year": 1824,
+      "sub_genre": "String quartet"
+    },
+    {
+      "name": "Symphony No. 8 'Unfinished'",
+      "composer": "Franz Schubert",
+      "era": "Romantic",
+      "year": 1822,
+      "sub_genre": "Symphony"
+    },
+    {
+      "name": "Symphonie fantastique",
+      "composer": "Hector Berlioz",
+      "era": "Romantic",
+      "year": 1830,
+      "sub_genre": "Symphony"
+    },
+    {
+      "name": "Piano Sonata No. 2 'Funeral March'",
+      "composer": "Frederic Chopin",
+      "era": "Romantic",
+      "year": 1839,
+      "sub_genre": "Piano sonata"
+    },
+    {
+      "name": "Carnival of the Animals",
+      "composer": "Camille Saint-Saëns",
+      "era": "Romantic",
+      "year": 1886,
+      "sub_genre": "Suite"
+    },
+    {
+      "name": "Hungarian Rhapsody No. 2",
+      "composer": "Franz Liszt",
+      "era": "Romantic",
+      "year": 1847,
+      "sub_genre": "Solo piano work"
+    },
+    {
+      "name": "A Midsummer Night's Dream Overture",
+      "composer": "Felix Mendelssohn",
+      "era": "Romantic",
+      "year": 1826,
+      "sub_genre": "Overture"
+    },
+    {
+      "name": "Wedding March",
+      "composer": "Felix Mendelssohn",
+      "era": "Romantic",
+      "year": 1842,
+      "sub_genre": "Orchestral work"
+    },
+    {
+      "name": "The Barber of Seville",
+      "composer": "Gioachino Rossini",
+      "era": "Classical",
+      "year": 1816,
+      "sub_genre": "Opera"
+    },
+    {
+      "name": "William Tell Overture",
+      "composer": "Gioachino Rossini",
+      "era": "Romantic",
+      "year": 1829,
+      "sub_genre": "Overture"
+    },
+    {
+      "name": "Symphony No. 3 'Eroica'",
+      "composer": "Ludwig van Beethoven",
+      "era": "Classical",
+      "year": 1803,
+      "sub_genre": "Symphony"
+    },
+    {
+      "name": "Die Walküre",
+      "composer": "Richard Wagner",
+      "era": "Romantic",
+      "year": 1856,
+      "sub_genre": "Opera"
+    },
+    {
+      "name": "Swan Lake",
+      "composer": "Pyotr Ilyich Tchaikovsky",
+      "era": "Romantic",
+      "year": 1876,
+      "sub_genre": "Ballet"
+    },
+    {
+      "name": "The Nutcracker",
+      "composer": "Pyotr Ilyich Tchaikovsky",
+      "era": "Romantic",
+      "year": 1892,
+      "sub_genre": "Ballet"
+    },
+    {
+      "name": "1812 Overture",
+      "composer": "Pyotr Ilyich Tchaikovsky",
+      "era": "Romantic",
+      "year": 1880,
+      "sub_genre": "Overture"
+    },
+    {
+      "name": "Rhapsody in Blue",
+      "composer": "George Gershwin",
+      "era": "Modern",
+      "year": 1924,
+      "sub_genre": "Orchestral work"
+    },
+    {
+      "name": "Boléro",
+      "composer": "Maurice Ravel",
+      "era": "Modern",
+      "year": 1928,
+      "sub_genre": "Orchestral work"
+    },
+    {
+      "name": "Clair de Lune",
+      "composer": "Claude Debussy",
+      "era": "Modern",
+      "year": 1905,
+      "sub_genre": "Solo piano work"
+    },
+    {
+      "name": "Symphony No. 6 'Pathétique'",
+      "composer": "Pyotr Ilyich Tchaikovsky",
+      "era": "Romantic",
+      "year": 1893,
+      "sub_genre": "Symphony"
+    },
+    {
+      "name": "Peer Gynt Suite No. 1",
+      "composer": "Edvard Grieg",
+      "era": "Romantic",
+      "year": 1875,
+      "sub_genre": "Suite"
+    },
+    {
+      "name": "Symphony No. 1",
+      "composer": "Johannes Brahms",
+      "era": "Romantic",
+      "year": 1876,
+      "sub_genre": "Symphony"
+    },
+    {
+      "name": "Symphony No. 2 'Resurrection'",
+      "composer": "Gustav Mahler",
+      "era": "Romantic",
+      "year": 1894,
+      "sub_genre": "Symphony"
+    },
+    {
+      "name": "Symphony No. 9 'From the New World'",
+      "composer": "Antonín Dvořák",
+      "era": "Romantic",
+      "year": 1893,
+      "sub_genre": "Symphony"
+    },
+    {
+      "name": "Pomp and Circumstance March No. 1",
+      "composer": "Edward Elgar",
+      "era": "Modern",
+      "year": 1901,
+      "sub_genre": "Orchestral work"
+    },
+    {
+      "name": "The Planets",
+      "composer": "Gustav Holst",
+      "era": "Modern",
+      "year": 1918,
+      "sub_genre": "Suite"
+    },
+    {
+      "name": "Pelleas and Melisande",
+      "composer": "Claude Debussy",
+      "era": "Modern",
+      "year": 1902,
+      "sub_genre": "Opera"
+    },
+    {
+      "name": "Firebird Suite",
+      "composer": "Igor Stravinsky",
+      "era": "Modern",
+      "year": 1910,
+      "sub_genre": "Ballet"
+    },
+    {
+      "name": "Rite of Spring",
+      "composer": "Igor Stravinsky",
+      "era": "Modern",
+      "year": 1913,
+      "sub_genre": "Ballet"
+    },
+    {
+      "name": "Concerto for Orchestra",
+      "composer": "Béla Bartók",
+      "era": "Modern",
+      "year": 1943,
+      "sub_genre": "Orchestral work"
+    },
+    {
+      "name": "Appalachian Spring",
+      "composer": "Aaron Copland",
+      "era": "Modern",
+      "year": 1944,
+      "sub_genre": "Ballet"
+    },
+    {
+      "name": "Carmina Burana",
+      "composer": "Carl Orff",
+      "era": "Modern",
+      "year": 1937,
+      "sub_genre": "Cantata"
+    },
+    {
+      "name": "Symphony No. 4",
+      "composer": "Jean Sibelius",
+      "era": "Modern",
+      "year": 1911,
+      "sub_genre": "Symphony"
+    },
+    {
+      "name": "Adagio for Strings",
+      "composer": "Samuel Barber",
+      "era": "Modern",
+      "year": 1938,
+      "sub_genre": "Orchestral work"
+    },
+    {
+      "name": "Gymnopédie No. 1",
+      "composer": "Erik Satie",
+      "era": "Modern",
+      "year": 1888,
+      "sub_genre": "Solo piano work"
+    },
+    {
+      "name": "Turandot",
+      "composer": "Giacomo Puccini",
+      "era": "Romantic",
+      "year": 1926,
+      "sub_genre": "Opera"
+    },
+    {
+      "name": "La Traviata",
+      "composer": "Giuseppe Verdi",
+      "era": "Romantic",
+      "year": 1853,
+      "sub_genre": "Opera"
+    },
+    {
+      "name": "Rigoletto",
+      "composer": "Giuseppe Verdi",
+      "era": "Romantic",
+      "year": 1851,
+      "sub_genre": "Opera"
+    },
+    {
+      "name": "Carmen",
+      "composer": "Georges Bizet",
+      "era": "Romantic",
+      "year": 1875,
+      "sub_genre": "Opera"
+    },
+    {
+      "name": "Symphony No. 4 'Italian'",
+      "composer": "Felix Mendelssohn",
+      "era": "Romantic",
+      "year": 1833,
+      "sub_genre": "Symphony"
+    },
+    {
+      "name": "Nocturne No. 2 in E-flat major",
+      "composer": "Frederic Chopin",
+      "era": "Romantic",
+      "year": 1830,
+      "sub_genre": "Solo piano work"
+    },
+    {
+      "name": "Clarinet Concerto in A major",
+      "composer": "Wolfgang Amadeus Mozart",
+      "era": "Classical",
+      "year": 1791,
+      "sub_genre": "Concerto"
+    },
+    {
+      "name": "Requiem",
+      "composer": "Gabriel Fauré",
+      "era": "Romantic",
+      "year": 1887,
+      "sub_genre": "Oratorio"
+    },
+    {
+      "name": "Finlandia",
+      "composer": "Jean Sibelius",
+      "era": "Modern",
+      "year": 1899,
+      "sub_genre": "Tone poem"
+    },
+    {
+      "name": "Fantaisie-Impromptu",
+      "composer": "Frederic Chopin",
+      "era": "Romantic",
+      "year": 1834,
+      "sub_genre": "Solo piano work"
+    },
+    {
+      "name": "Pictures at an Exhibition",
+      "composer": "Modest Mussorgsky",
+      "era": "Romantic",
+      "year": 1874,
+      "sub_genre": "Suite"
+    },
+    {
+      "name": "An American in Paris",
+      "composer": "George Gershwin",
+      "era": "Modern",
+      "year": 1928,
+      "sub_genre": "Tone poem"
+    },
+    {
+      "name": "Boris Godunov",
+      "composer": "Modest Mussorgsky",
+      "era": "Romantic",
+      "year": 1873,
+      "sub_genre": "Opera"
+    },
+    {
+      "name": "Symphony No. 5",
+      "composer": "Dmitri Shostakovich",
+      "era": "Modern",
+      "year": 1937,
+      "sub_genre": "Symphony"
+    },
+    {
+      "name": "Polovtsian Dances",
+      "composer": "Alexander Borodin",
+      "era": "Romantic",
+      "year": 1869,
+      "sub_genre": "Suite"
+    },
+    {
+      "name": "The Moldau",
+      "composer": "Bedřich Smetana",
+      "era": "Romantic",
+      "year": 1874,
+      "sub_genre": "Tone poem"
+    },
+    {
+      "name": "Prelude to the Afternoon of a Faun",
+      "composer": "Claude Debussy",
+      "era": "Modern",
+      "year": 1894,
+      "sub_genre": "Tone poem"
+    },
+    {
+      "name": "Academic Festival Overture",
+      "composer": "Johannes Brahms",
+      "era": "Romantic",
+      "year": 1880,
+      "sub_genre": "Overture"
+    },
+    {
+      "name": "Symphony No. 7 'Leningrad'",
+      "composer": "Dmitri Shostakovich",
+      "era": "Modern",
+      "year": 1941,
+      "sub_genre": "Symphony"
+    },
+    {
+      "name": "Overture to 'The Marriage of Figaro'",
+      "composer": "Wolfgang Amadeus Mozart",
+      "era": "Classical",
+      "year": 1786,
+      "sub_genre": "Overture"
+    },
+    {
+      "name": "Symphony No. 94 'Surprise'",
+      "composer": "Joseph Haydn",
+      "era": "Classical",
+      "year": 1791,
+      "sub_genre": "Symphony"
+    },
+    {
+      "name": "Trumpet Concerto",
+      "composer": "Joseph Haydn",
+      "era": "Classical",
+      "year": 1796,
+      "sub_genre": "Concerto"
+    },
+    {
+      "name": "La Bohème",
+      "composer": "Giacomo Puccini",
+      "era": "Romantic",
+      "year": 1896,
+      "sub_genre": "Opera"
+    },
+    {
+      "name": "Orpheus in the Underworld",
+      "composer": "Jacques Offenbach",
+      "era": "Romantic",
+      "year": 1858,
+      "sub_genre": "Operetta"
+    },
+    {
+      "name": "Symphony No. 8 'Symphony of a Thousand'",
+      "composer": "Gustav Mahler",
+      "era": "Romantic",
+      "year": 1906,
+      "sub_genre": "Symphony"
+    },
+    {
+      "name": "The Flying Dutchman",
+      "composer": "Richard Wagner",
+      "era": "Romantic",
+      "year": 1843,
+      "sub_genre": "Opera"
+    },
+    {
+      "name": "Parsifal",
+      "composer": "Richard Wagner",
+      "era": "Romantic",
+      "year": 1882,
+      "sub_genre": "Opera"
+    },
+    {
+      "name": "Nimrod from Enigma Variations",
+      "composer": "Edward Elgar",
+      "era": "Modern",
+      "year": 1899,
+      "sub_genre": "Orchestral work"
+    },
+    {
+      "name": "Cello Concerto in B minor",
+      "composer": "Antonín Dvořák",
+      "era": "Romantic",
+      "year": 1895,
+      "sub_genre": "Concerto"
+    },
+    {
+      "name": "Gaspard de la Nuit",
+      "composer": "Maurice Ravel",
+      "era": "Modern",
+      "year": 1908,
+      "sub_genre": "Solo piano work"
+    },
+    {
+      "name": "La mer",
+      "composer": "Claude Debussy",
+      "era": "Modern",
+      "year": 1905,
+      "sub_genre": "Orchestral work"
+    },
+    {
+      "name": "Romeo and Juliet Overture",
+      "composer": "Pyotr Ilyich Tchaikovsky",
+      "era": "Romantic",
+      "year": 1880,
+      "sub_genre": "Overture"
+    },
+    {
+      "name": "Concerto for Two Violins in D minor",
+      "composer": "Johann Sebastian Bach",
+      "era": "Baroque",
+      "year": 1730,
+      "sub_genre": "Concerto"
+    },
+    {
+      "name": "Piano Trio No. 2 in E-flat major",
+      "composer": "Franz Schubert",
+      "era": "Classical",
+      "year": 1827,
+      "sub_genre": "Trio"
+    },
+    {
+      "name": "Serenade for Strings",
+      "composer": "Pyotr Ilyich Tchaikovsky",
+      "era": "Romantic",
+      "year": 1880,
+      "sub_genre": "Suite"
+    },
+    {
+      "name": "String Quintet in C major",
+      "composer": "Franz Schubert",
+      "era": "Romantic",
+      "year": 1828,
+      "sub_genre": "String quintet"
+    },
+    {
+      "name": "Symphony No. 3 'Rhenish'",
+      "composer": "Robert Schumann",
+      "era": "Romantic",
+      "year": 1850,
+      "sub_genre": "Symphony"
+    },
+    {
+      "name": "Piano Sonata No. 8 'Pathetique'",
+      "composer": "Ludwig van Beethoven",
+      "era": "Classical",
+      "year": 1798,
+      "sub_genre": "Piano sonata"
+    },
+    {
+      "name": "The Sorcerer's Apprentice",
+      "composer": "Paul Dukas",
+      "era": "Modern",
+      "year": 1897,
+      "sub_genre": "Tone poem"
+    },
+    {
+      "name": "Symphony No. 4 'Inextinguishable'",
+      "composer": "Carl Nielsen",
+      "era": "Modern",
+      "year": 1916,
+      "sub_genre": "Symphony"
+    },
+    {
+      "name": "Fantasia on a Theme by Thomas Tallis",
+      "composer": "Ralph Vaughan Williams",
+      "era": "Modern",
+      "year": 1910,
+      "sub_genre": "Orchestral work"
+    },
+    {
+      "name": "Der Rosenkavalier",
+      "composer": "Richard Strauss",
+      "era": "Modern",
+      "year": 1911,
+      "sub_genre": "Opera"
+    },
+    {
+      "name": "Sinfonietta",
+      "composer": "Leoš Janáček",
+      "era": "Modern",
+      "year": 1926,
+      "sub_genre": "Orchestral work"
+    },
+    {
+      "name": "Spartacus Suite No. 2",
+      "composer": "Aram Khachaturian",
+      "era": "Modern",
+      "year": 1954,
+      "sub_genre": "Ballet"
+    },
+    {
+      "name": "Prelude in C-sharp minor",
+      "composer": "Sergei Rachmaninoff",
+      "era": "Romantic",
+      "year": 1892,
+      "sub_genre": "Solo piano work"
+    },
+    {
+      "name": "Concerto in F",
+      "composer": "George Gershwin",
+      "era": "Modern",
+      "year": 1925,
+      "sub_genre": "Piano concerto"
+    },
+    {
+      "name": "Egmont Overture",
+      "composer": "Ludwig van Beethoven",
+      "era": "Classical",
+      "year": 1810,
+      "sub_genre": "Overture"
+    },
+    {
+      "name": "Rhapsody on a Theme of Paganini",
+      "composer": "Sergei Rachmaninoff",
+      "era": "Romantic",
+      "year": 1934,
+      "sub_genre": "Piano concerto"
+    }
+  ]

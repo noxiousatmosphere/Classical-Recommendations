@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classical Music Recommendations</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #2e2c2f;
+            color: #e0dacc;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #c0a080;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .piece {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #3c3b3d;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        #music-container {
+            max-width: 1000px;
+            margin: auto;
+        }
+        button {
+            background-color: #5a4b3b;
+            color: #e0dacc;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #7b6855;
+        }
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Classical Music Recommendations</h1>
+    <div id="music-container"></div>
+    <button onclick="submitRatings()">Submit Ratings</button>
+    <div id="preferences"></div>
+    <div id="recommendations"></div>
+    <button onclick="rateMorePieces()">Rate 10 More Pieces</button>
+    
+    <script>
+        let selectedPieces = [];
+        let allPieces = [];
+        let ratedPieces = [];
+        let genrePreferences = {};
+
+        async function fetchAndDisplayMusic() {
+            try {
+                const response = await fetch('classical.json');
+                const data = await response.json();
+                allPieces = data;
+                selectedPieces = getRandomPieces(data, 10);
+                displayPieces(selectedPieces);
+            } catch (error) {
+                console.error('Error fetching or parsing JSON:', error);
+            }
+        }
+
+        function getRandomPieces(data, count) {
+            const filteredData = data.filter(piece => !ratedPieces.includes(piece));
+            const shuffled = filteredData.sort(() => 0.5 - Math.random());
+            return shuffled.slice(0, count);
+        }
+
+        function displayPieces(pieces) {
+            const container = document.getElementById('music-container');
+            container.innerHTML = '';
+
+            pieces.forEach((piece, index) => {
+                const pieceDiv = document.createElement('div');
+                pieceDiv.className = 'piece';
+
+                pieceDiv.innerHTML = `
+                    <h2>${piece.name} by ${piece.composer}</h2>
+                    <p><strong>Era:</strong> ${piece.era}, <strong>Year:</strong> ${piece.year}, <strong>Sub-genre:</strong> ${piece.sub_genre}</p>
+                    <div>
+                        <label><input type="radio" name="rating-${index}" value="1"> 1</label>
+                        <label><input type="radio" name="rating-${index}" value="2"> 2</label>
+                        <label><input type="radio" name="rating-${index}" value="3"> 3</label>
+                        <label><input type="radio" name="rating-${index}" value="4"> 4</label>
+                        <label><input type="radio" name="rating-${index}" value="5"> 5</label>
+                        <label><input type="radio" name="rating-${index}" value="haven't heard it"> Haven't heard it</label>
+                    </div>
+                `;
+                container.appendChild(pieceDiv);
+            });
+        }
+
+        function submitRatings() {
+            selectedPieces.forEach((piece, index) => {
+                const ratings = document.getElementsByName(`rating-${index}`);
+                let ratingValue = null;
+
+                ratings.forEach((rating) => {
+                    if (rating.checked) {
+                        ratingValue = rating.value;
+                    }
+                });
+
+                if (ratingValue && ratingValue >= 3) {
+                    if (genrePreferences[piece.sub_genre]) {
+                        genrePreferences[piece.sub_genre]++;
+                    } else {
+                        genrePreferences[piece.sub_genre] = 1;
+                    }
+                }
+
+                ratedPieces.push(piece);
+            });
+
+            displayPreferences(genrePreferences);
+        }
+
+        function displayPreferences(preferences) {
+            const preferencesDiv = document.getElementById('preferences');
+            preferencesDiv.innerHTML = '<h2>Your Genre Preferences:</h2>';
+
+            const sortedPreferences = Object.entries(preferences).sort((a, b) => b[1] - a[1]);
+            const topThreePreferences = sortedPreferences.slice(0, 3);
+
+            topThreePreferences.forEach(([genre, count]) => {
+                preferencesDiv.innerHTML += `<p><strong>${genre}:</strong> Rated 3 or better ${count} time(s)</p>`;
+            });
+
+            recommendPieces(topThreePreferences);
+        }
+
+        function recommendPieces(topThreePreferences) {
+            const recommendationsDiv = document.getElementById('recommendations');
+            recommendationsDiv.innerHTML = '<h2>Recommended Pieces for You:</h2>';
+
+            const recommendedPieces = [];
+
+            topThreePreferences.forEach(([genre]) => {
+                const piecesFromGenre = allPieces.filter(piece => piece.sub_genre === genre && !ratedPieces.includes(piece));
+                if (piecesFromGenre.length > 0) {
+                    recommendedPieces.push(piecesFromGenre[0]);
+                }
+            });
+
+            recommendedPieces.forEach(piece => {
+                recommendationsDiv.innerHTML += `<p><strong>${piece.name}</strong> by ${piece.composer} (${piece.era}, ${piece.year}) - <strong>Sub-genre:</strong> ${piece.sub_genre}</p>`;
+            });
+        }
+
+        function rateMorePieces() {
+            selectedPieces = getRandomPieces(allPieces, 10);
+            displayPieces(selectedPieces);
+        }
+
+        fetchAndDisplayMusic();
+    </script>
+</body>
+</html>
